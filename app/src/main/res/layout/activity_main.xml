@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerInParent="true"
+        android:cursorVisible="true"
+        android:hint="Phone Number"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:inputType="phone" />
+    <Button
+        android:id="@+id/login"
+        android:layout_below="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20px"
+        android:text="Login"
+        android:onClick="btn"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/editTextPhone"
+        android:layout_marginBottom="400px"
+        />
+</RelativeLayout>
