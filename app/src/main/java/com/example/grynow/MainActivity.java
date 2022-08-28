@@ -25,6 +25,12 @@ public class MainActivity extends AppCompatActivity {
         login = findViewById(R.id.login);
     }
 
+
+
+
+
+
+
     public void btn(View view) {
         String number = phone.getText().toString();
         if(number.length()==10){
